@@ -1,3 +1,4 @@
 ## 簡易計算機
 這是一個隨便做的項目，可以在網頁上使用的計算機（廢話）
-https://github.com/Po20001011/Calculator/blob/main/%E6%88%AA%E5%9C%96%202024-07-05%2014.21.13.png
+<img width="617" alt="17384376224545859500960320587330" src="https://github.com/user-attachments/assets/efacda4a-6d9b-415a-a9df-5888c26064d1" />
+
