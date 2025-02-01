@@ -17,7 +17,7 @@ function setOperator(operator) {
     currentOperator = null;
   } else {
     if (currentOperator !== null && previousValue !== null) {
-      calculate(); // 先執行之前的運算
+      calculate(); // null軍團xd
     }
     currentOperator = operator;
     previousValue = parseFloat(display.value);
@@ -47,7 +47,7 @@ function calculate() {
     case '/':
       if (currentValue === 0) {
         result = 'Error: 除數不能為零';
-      } else {
+      } else {   // 講廢話（？
         result = previousValue / currentValue;
       }
       break;
@@ -75,3 +75,4 @@ function deleteLastNumber() {
 function showAbout() {
   alert("此計算機由 Ryan11035 開發，請勿轉載或偷取源碼！\n如果你還是把我的源碼偷了，我只會把你當成 Paper :)\n這個計算機我做很久 awa");
 }
+// 寫出來裝13的xd
